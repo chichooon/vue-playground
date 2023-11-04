@@ -9,6 +9,11 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
+    {
+      path: '/pinia',
+      name: 'pinia',
+      component: () => import('../views/PiniaView.vue'),
+    },
   ],
 });
 
