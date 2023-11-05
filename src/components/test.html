@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    main {
+      height: 500px;
+      overflow-y: scroll;
+    }
+
+    main div {
+      height: 10000px;
+    }
+  </style>
+  <body>
+    <header><h1>hihi</h1></header>
+    <main><div>test</div></main>
+    <footer><span>byebye</span></footer>
+  </body>
+  <script>
+    const main = document.querySelector('main');
+    main.addEventListener(
+      'scroll',
+      (e) => {
+        console.log('scrolled');
+      },
+      //   { passive: true },
+    );
+  </script>
+</html>
