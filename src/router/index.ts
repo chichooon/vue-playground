@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'pinia',
       component: () => import('../views/PiniaView.vue'),
     },
+    {
+      path: '/transition',
+      name: 'transition',
+      component: () => import('../views/TransitionView.vue'),
+    },
   ],
 });
 
