@@ -4,4 +4,13 @@ enum Enum {
   Good,
 }
 
-console.log(Enum.Bye);
+enum Enum2 {
+  AAA,
+  BBB,
+  CCC,
+}
+
+let a: Enum = Enum.Hi;
+
+a = Enum.Bye;
+console.log(a);
