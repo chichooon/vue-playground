@@ -29,6 +29,11 @@ const router = createRouter({
       name: 'composition',
       component: () => import('../views/CompositionView.vue'),
     },
+    {
+      path: '/teleport',
+      name: 'teleport',
+      component: () => import('../views/TeleportView.vue'),
+    },
   ],
 });
 
