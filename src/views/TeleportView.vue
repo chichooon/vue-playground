@@ -24,7 +24,7 @@ function handleClickClose() {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .modal-wrapper {
   position: fixed;
   top: 0;
@@ -37,6 +37,7 @@ function handleClickClose() {
   align-items: center;
   justify-content: center;
 }
+
 .modal-inner {
   background-color: #ffffff;
   width: 100px;
