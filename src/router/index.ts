@@ -19,6 +19,11 @@ const router = createRouter({
       name: 'transition',
       component: () => import('../views/TransitionView.vue'),
     },
+    {
+      path: '/mixin',
+      name: 'mixin',
+      component: () => import('../views/MixinsView.vue'),
+    },
   ],
 });
 
