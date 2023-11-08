@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'mixin',
       component: () => import('../views/MixinsView.vue'),
     },
+    {
+      path: '/composition',
+      name: 'composition',
+      component: () => import('../views/CompositionView.vue'),
+    },
   ],
 });
 
