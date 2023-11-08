@@ -34,6 +34,11 @@ const router = createRouter({
       name: 'teleport',
       component: () => import('../views/TeleportView.vue'),
     },
+    {
+      path: '/setup',
+      name: 'setup',
+      component: () => import('../views/SetupView.vue'),
+    },
   ],
 });
 
